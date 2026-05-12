@@ -1,0 +1,36 @@
+# Update system
+sudo apt update -y
+sudo apt upgrade -y
+
+# Install NGINX
+sudo apt install nginx -y
+
+# Start NGINX
+sudo systemctl start nginx
+
+# Enable NGINX
+sudo systemctl enable nginx
+
+# Check NGINX status
+sudo systemctl status nginx
+
+# Install Python
+sudo apt install python3 -y
+
+# Check Python version
+python3 --version
+
+# Create Python file
+nano test.py
+
+# Run Python file
+python3 test.py
+
+# Go to NGINX web directory
+cd /var/www/html
+
+# Edit webpage
+sudo nano index.html
+
+# Restart NGINX
+sudo systemctl restart nginx
